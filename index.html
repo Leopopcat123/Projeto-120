@@ -15,23 +15,23 @@
 </head>
 
  <!-- adicionar um plano de fundo para nossa página HTML -->
-
+<body background = "background.jpg">
 <center>
   <!-- adicionar classes bootstrap e um nome de classe -->
-  
+   <h3 class="btn-primary heading">O App de identificação de Tempo Real</h3>
     <!-- adicionar uma linha horizontal após o texto do título -->
-   
+   <hr>
     <center>
       <!-- adicionar classes bootstrap e uma classe “headingDiv" -->
-     
+     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 headingDiv"></div>
         Estamos usando o Mobilenet como modelo.  
         <br>
         <!--adicionar a classe ao div, que está armazenando o texto “O modelo
 Mobilenet é treinado em” -->
-         
+         <div class="btn headingDiv"></div>
             O modelo Mobilenet é treinado em 
             <!-- adicione uma tag br com o texto "mais de 1,3 milhão de imagens" -->
-          
+          <br><!--BRASIL-->
           </div>
         </div>
     </center>
@@ -39,7 +39,7 @@ Mobilenet é treinado em” -->
   </h3>
   <br><br>
   <!-- adicionar classes bootstrap e uma classe “resultToTag" -->
-
+  <p class="btn btn-success result_para_tag">Objeto: 
     <span id="resultObjectName"></span> 
   </p>
   
@@ -47,12 +47,17 @@ Mobilenet é treinado em” -->
   <p class="btn btn-success result_para_tag">Precisão: 
     <!-- adicionar id à tag,usaremos esse id para atualizar esta tag span
     com o nome do objeto -->
+   <span id="resultObjectAccuary"></span>
    
   </p>
 
 </center>
 <!-- definir uma div com a classe “copyRightFooter” -->
+<div id="copyRightFooter">
 
+  Desenvolvido por: Leonardo Moser
+
+</div>
   
 
 
